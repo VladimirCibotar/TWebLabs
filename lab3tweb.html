@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./csslab3.css" type="text/css">
+
+</head>
+
+<body style="background-color: #0b2611">
+<div class="container1">
+  <div class="flag">
+<div class="text">
+  <p id="name">Flag</p>
+</div>
+    <button onclick="reset()" class="buton" id="check" >clear</button>
+</div>
+  </div>
+
+<div class="container" >
+  <div class="option2">
+    <form id="firstCol">
+      <div class="option3" >
+        <img id="flagimage" src="ImageNotLoade.png" alt="Image not loaded">
+      </div>
+      <label class="radio">
+        <input type="radio" id="switzerland" name="radio" onclick="show(0)">
+        <span>Switzerland</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="belgium" name="radio" onclick="show(1)"  >
+        <span>Belgium</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="germany" name="radio"  onclick="show(2)">
+        <span>Germany</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="ireland" name="radio"  onclick="show(3)">
+        <span>Ireland</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="finland" name="radio"   onclick="show(4)">
+        <span>Finland</span>
+      </label>
+    </form>
+  </div>
+  <div class="option2">
+    <form id="secondCol">
+      <div class="option3" id="txt2">
+        <img id="flagimage2" src="ImageNotLoade.png" alt="Image not loaded">
+      </div>
+      <label class="radio">
+        <input type="radio" id="america" name="radio" onclick="show2(0)">
+        <span>America</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="moldova" name="radio" onclick="show2(1)">
+        <span>Moldova</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="italy" name="radio" onclick="show2(2)">
+        <span>Italy</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="india" name="radio" onclick="show2(3)">
+        <span>India</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="greece" name="radio" onclick="show2(4)">
+        <span>Greece</span>
+      </label>
+    </form>
+  </div>
+
+
+
+  <div class="option2">
+    <form id="thirdCol">
+      <div class="option3" id="txt3">
+        <img id="flagimage3" src="ImageNotLoade.png" alt="Image not loaded">
+      </div>
+      <label class="radio">
+        <input type="radio" id="Spain" name="radio" onclick="show3(0)">
+        <span>Spain</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="France" name="radio" onclick="show3(1)">
+        <span>France</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="Polan" name="radio" onclick="show3(2)">
+        <span>Poland</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="china" name="radio" onclick="show3(3)">
+        <span>China</span>
+      </label>
+      <label class="radio">
+        <input type="radio" id="Japan" name="radio" onclick="show3(4)">
+        <span>Japan</span>
+      </label>
+    </form>
+  </div>
+
+</div>
+
+
+<script src="jslab3.js"></script>
+</body>
+
+</html>
